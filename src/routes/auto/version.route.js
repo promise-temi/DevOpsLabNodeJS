@@ -1,5 +1,5 @@
 /**
- * GET /version → { version: "<package.json version>" }
+ * GET /version → { version: "<package.json version>" } ///
  * Reads version from package.json to keep it source-of-truth.
  */
 import { Router } from 'express'
