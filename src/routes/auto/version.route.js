@@ -12,6 +12,7 @@ const __dirname = path.dirname(__filename)
 
 const router = Router()
 
+// ma route
 router.get('/version', (_req, res) => {
   const pkg = JSON.parse(
     fs.readFileSync(path.join(__dirname, '..', '..', '..', 'package.json'), 'utf-8')
